@@ -1,32 +1,92 @@
 body {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Varela Round", sans-serif;
   color: white;
   margin: 0;
   padding: 0;
   background-image: url(img/img1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  backdrop-filter: blur(1.5px);
 }
 
 .left {
   display: inline-block;
-  border: 2px solid blue;
   position: absolute;
-  left: 34px;
-  top: 18px;
+  left: 196px;
+  top: -37px;
 }
 .mid {
   display: block;
-  width: 33%;
-  margin: 18px auto;
-  border: 2px solid green;
+  width: 45%;
+  margin: 17px 404px;
 }
 .right {
   position: absolute;
   right: 34px;
-  top: 18px;
+  top: 5px;
   display: inline-block;
-  border: 2px solid aqua;
 }
 .navbar {
   display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 15px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  color: rgb(187, 255, 15);
+}
+.left img {
+  width: 200px;
+  height: 200px;
+  margin-top: -37px;
+}
+hr.solid {
+  border-top: 0.2px solid #e0fb2f;
+}
+.right button {
+  border: none;
+  color: black;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px 2px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  font-weight: bold;
+}
+.right button:hover {
+  background-color: rgb(187, 255, 15);
+}
+.container {
+  margin: 87px 193px;
+  padding: 80px 144px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1.5rem;
+}
+.container button {
+  border: none;
+  color: black;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 3px 2px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  font-weight: bold;
+}
+.container button:hover {
+  background-color: rgb(187, 255, 15);
 }
